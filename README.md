@@ -15,7 +15,7 @@ First of all, load the best model from ```model.mat```,
 load model
 ```
 
-You may use ```predict_from_file(dist,W1, b1, W2, b2)``` function to get result.
+You may use ```predict_from_file(dist,W1, b1, W2, b2)``` function to get results.
 
 ## Note
 
