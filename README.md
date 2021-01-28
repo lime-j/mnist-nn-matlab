@@ -15,12 +15,13 @@ First of all, load the best model from ```model.mat```,
 load model
 ```
 
-You may use ```predict_from_file(dist,W1, b1, W2, b2)``` function to get results.
+You may use ```predict_from_file(dist,W1, b1, W2, b2)``` function to get inference results. 
 
-## Note
+## Notes
 
 I have used ```dlarray``` from MATLAB 2020a, so it may not works so well with lower version.
 However, if you want to run it on lower version, 
 you can delete the transformation procedures between original array and dlarray, like ```X = dlarray(X);``` and ```extractdata()```.
+This might affect the performance.
 
 This is just an experiment I wrote before, as an assignment from class. I won't update it anymore.
